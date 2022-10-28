@@ -80,6 +80,8 @@ public class StreamApiApplication {
             people.forEach(System.out::println);
         });
 
+        //test
+
     }
 
 }
