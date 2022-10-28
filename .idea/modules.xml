@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/advanced-java.iml" filepath="$PROJECT_DIR$/.idea/advanced-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapper/mapper.iml" filepath="$PROJECT_DIR$/mapper/mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream_api/stream_api.iml" filepath="$PROJECT_DIR$/stream_api/stream_api.iml" />
     </modules>
   </component>

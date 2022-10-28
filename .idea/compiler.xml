@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="stream_api" />
+        <module name="mapper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mapper" target="11" />
       <module name="stream_api" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mapper" options="-parameters" />
       <module name="stream_api" options="-parameters" />
     </option>
   </component>
