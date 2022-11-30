@@ -1,10 +1,10 @@
-package dev.omeratayilmaz.threads;
+package com.example.optionals;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ThreadsApplicationTests {
+class OptionalsApplicationTests {
 
     @Test
     void contextLoads() {
