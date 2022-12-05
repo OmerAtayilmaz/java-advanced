@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Threads" />
-        <module name="stream_api" />
         <module name="mapper" />
+        <module name="dates" />
+        <module name="stream_api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dates" target="17" />
       <module name="mapper" target="11" />
       <module name="stream_api" target="11" />
       <module name="Threads" target="17" />
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Threads" options="-parameters" />
+      <module name="dates" options="-parameters" />
       <module name="mapper" options="-parameters" />
       <module name="stream_api" options="-parameters" />
     </option>
