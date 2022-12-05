@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/stream_api/pom.xml" />
         <option value="$PROJECT_DIR$/mapper/pom.xml" />
         <option value="$PROJECT_DIR$/Threads/pom.xml" />
+        <option value="$PROJECT_DIR$/dates/pom.xml" />
       </list>
     </option>
   </component>
