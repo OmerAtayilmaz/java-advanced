@@ -3,10 +3,10 @@ package mapper;
 import java.util.List;
 
 public class User {
-    private int id;
-    private int pass;
-    private String email;
-    private List<Roles> role;
+    public int id;
+    public int pass;
+    public String email;
+    public List<Roles> role;
 
 
 

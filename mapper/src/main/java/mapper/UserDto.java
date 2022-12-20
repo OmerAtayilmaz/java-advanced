@@ -3,12 +3,30 @@ package mapper;
 import java.util.List;
 
 public class UserDto {
-    private String email;
-    private int pass;
-    private List<Integer> roles;
+    public String email;
+    public int pass;
 
-    public UserDto(String email, List<Integer> roles) {
+    public UserDto() {
+    }
+
+    public UserDto(String email, int pass) {
         this.email = email;
-        this.roles = roles;
+        this.pass = pass;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public int getPass() {
+        return pass;
+    }
+
+    public void setPass(int pass) {
+        this.pass = pass;
     }
 }
