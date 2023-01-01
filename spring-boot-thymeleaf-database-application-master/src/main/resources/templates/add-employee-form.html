@@ -9,12 +9,13 @@
 			crossorigin="anonymous" />
 	</head>
 	<body>
-		
+
+
 		<div class="container">
 		
 			<h3>Add New Employee</h3>
 			<hr/>
-			
+			<td th:text="${baver}" />
 			<form th:action="@{/saveEmployee}" th:object="${employee}" method="POST">
 				
 				<input type="text" th:field="*{name}" class="form-control col-4 mb-4" placeholder="Enter Name" />

@@ -2,14 +2,15 @@ package in.bushansirgur.springbootthymeleaf.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class ProductController {
+public class UserController {
 
-    @GetMapping({"/products","/product-list"})
-    public ModelAndView productList(){
-        ModelAndView mav=new ModelAndView("list-products");
+    @GetMapping({"/users","/user-list"})
+    public ModelAndView users(){
+        ModelAndView mav=new ModelAndView("index");
         mav.addObject("s","Hello World!");
         return mav;
     }

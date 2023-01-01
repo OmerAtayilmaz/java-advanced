@@ -43,6 +43,7 @@ public class EmployeeController {
 		ModelAndView mav = new ModelAndView("add-employee-form");
 		Employee employee = eRepo.findById(employeeId).get();
 		mav.addObject("employee", employee);
+		mav.addObject("baver","talantimur");
 		return mav;
 	}
 	
